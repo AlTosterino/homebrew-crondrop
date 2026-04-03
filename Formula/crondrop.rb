@@ -2,17 +2,17 @@ class Crondrop < Formula
   desc "Desktop eye-drop reminder app with a CLI-first workflow"
   homepage "https://github.com/AlTosterino/crondop"
   license "MIT"
-  version "0.1.7"
+  version "0.1.8"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/AlTosterino/crondop/releases/download/v0.1.7/crondrop-macos-aarch64.tar.gz"
-    sha256 "e35428dd3384c2a225e062509d6da03086ba5bd4e664a8a4f9152f90642a9bfa"
+    url "https://github.com/AlTosterino/crondop/releases/download/v0.1.8/crondrop-macos-aarch64.tar.gz"
+    sha256 "ae5aad009794e9b35b2652b6a80aebd0918ef1eff7176ff6650180c1f57db19a"
   end
 
   on_linux do
-    url "https://github.com/AlTosterino/crondop/releases/download/v0.1.7/crondrop-linux-x86_64.tar.gz"
-    sha256 "593a0642f154402d2b5497de1dcd4543bd2f5013d341dd4be1a1f7a4ff030fd7"
+    url "https://github.com/AlTosterino/crondop/releases/download/v0.1.8/crondrop-linux-x86_64.tar.gz"
+    sha256 "e1996a82af4effb82a084099a8f91ad83c05267ce433d9f7a210965b5af29405"
   end
 
   def install
